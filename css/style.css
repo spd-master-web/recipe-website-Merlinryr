@@ -1,0 +1,17 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: orange;
+    height: 100vh;
+    max-width: 100%;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica;
+    font-size: 10em;
+}
+
+h1:hover{
+    cursor:default;
+}
