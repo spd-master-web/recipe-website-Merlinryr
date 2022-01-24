@@ -7,9 +7,6 @@ var ctn = {
     }
 };
 
-var tableLabel;
-
-
 window.addEventListener("load", function(event) {
     ctn.ctnLasagne = this.document.getElementsByClassName('ctn-lasagne')
 
@@ -17,5 +14,5 @@ window.addEventListener("load", function(event) {
 
     ctn.ctnGalette = this.document.getElementsByClassName('ctn-galette')
 
-    console.log("Toutes les ressources sont chargées !", ctn);
+    console.log("Loaded resources", ctn);
 });
