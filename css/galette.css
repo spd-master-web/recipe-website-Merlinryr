@@ -164,6 +164,7 @@ h3 {
 }
 .wrapper-steps li {
     margin-top: 5%;
+    padding: 0 10% 0 0;
     font-family: Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 500;
