@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #151924;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+
+.recipes {
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    top:0;
+    left:0;
+
+    padding: 0;
+    margin: 0;
+
+    width: 100vw;
+    height: 100%;
+}
+
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 1000;
+    font-size: 5em;
+    letter-spacing: auto;
+}
+
+
+.ctn-recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    transition: ease-out .2s;
+}
+
+.ctn-recipe:hover{
+    cursor: pointer;
+    opacity: 100%;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+
+.lasagne {
+    background-image: url('../medias/lasagne.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galette {
+    background-image: url('../medias/galette.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pasta {
+    background-image: url('../medias/pasta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
